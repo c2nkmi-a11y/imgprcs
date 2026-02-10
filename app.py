@@ -1,4 +1,3 @@
-import numpy as np
 import cv2
 from PIL import Image
 import tkinter as tk
