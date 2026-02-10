@@ -3,6 +3,9 @@ import cv2
 from PIL import Image
 import tkinter as tk
 from tkinter import filedialog
+from image_display import ImageDisplay
+from gui import ImageProcessorGUI
+
 class ImageProcessor:
     def __init__(self, image_path):
         self.image_path = image_path
